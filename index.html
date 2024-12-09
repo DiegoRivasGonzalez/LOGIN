@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-image: url(paisaje.jpg);
+            display: flex;
+            background-size: cover;
+            justify-content: center;
+            height: 100vh;
+            align-items: center;
+        }
+
+        form {
+            margin: auto;
+            height: 300px;
+            width: 240px;
+            background-color: rgba(255, 255, 255, 0.5);
+            padding: 15px;
+            border-radius: 15px;
+        }
+
+        form img {
+            width: 50%;
+            margin: auto;
+            display: block;
+        }
+        label{
+            font-size: larger;
+            font-weight: bold;
+        }
+        #boton{
+            font-weight: bold;
+        }
+        
+    </style>
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div id="caja-login">
+        <form action="">
+            <img src="login.png" alt="">
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" placeholder="ejemplo@ejemplo.com" >
+            </p>
+            <p>
+                <label for="contraseña">Contraseña:</label>
+                <input type="password" placeholder="Contraseña">
+            </p>
+            <input type="button" value="Login" id="boton">
+        </form>
+
+    </div>
+</body>
+
+</html>
